@@ -1,6 +1,6 @@
 {
   "name": "mongex",
-  "version": "1.0.10",
+  "version": "1.0.1",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
   "repository": {
