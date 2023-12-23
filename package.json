@@ -1,5 +1,5 @@
 {
-  "name": "mongex",
+  "name": "monguex",
   "version": "1.0.1",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
