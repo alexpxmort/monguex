@@ -1,13 +1,17 @@
 {
   "name": "monguex",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
   "repository": {
     "type": "git",
-    "url":"git+https://github.com/alexpxmort/monguex.git"
+    "url": "git+https://github.com/alexpxmort/monguex.git"
   },
-  "keywords": ["mongoose","mongo","framework"],
+  "keywords": [
+    "mongoose",
+    "mongo",
+    "framework"
+  ],
   "author": {
     "name": "Alex Oliveira",
     "email": "lexpdigi@gmail.com"
