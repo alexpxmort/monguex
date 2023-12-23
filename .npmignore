@@ -1,0 +1,12 @@
+# .npmignore
+
+# Arquivos de configuração
+config/
+
+# Arquivos TypeScript
+src/**/*.ts
+src/**/*.tsx
+
+# Testes
+test/**/*.ts
+test/runners
