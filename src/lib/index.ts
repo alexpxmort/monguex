@@ -1,6 +1,5 @@
-// monguex.js
 
-import mongoose, { ClientSession } from 'mongoose'
+import mongoose from 'mongoose'
 const isConnectedSymbol = Symbol.for('isConnected');
 const urlReconnectSymbol = Symbol.for('urlReconnectSymbol');
 
@@ -158,4 +157,4 @@ const monguex = {
     } as any;
   } 
 }
-export default monguex
+export {monguex}
