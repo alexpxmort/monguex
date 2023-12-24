@@ -18,7 +18,7 @@ yarn  add monguex
 <p>Exemplos de como utilizar a biblioteca:</p>
 
 ```typescript
-import  monguex  from 'monguex';
+import  {monguex}  from 'monguex';
 
 
 
@@ -43,4 +43,5 @@ await monguex.save(UserModel,{
 })()
 
 ```
+
 
