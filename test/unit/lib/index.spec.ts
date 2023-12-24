@@ -16,7 +16,7 @@ describe('Monguex', () => {
       add: sinon.stub().returnsThis() // Retorna o próprio objeto fakeSchema
     };
 
-    const TestModel = mongoose.model('TestModel', {});
+    const TestModel = mongoose.model('TestModel', {} as any);
 
     connectStub = sinon.stub(mongoose, 'connect');
     disconnectStub = sinon.stub(mongoose, 'disconnect');
